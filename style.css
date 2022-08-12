@@ -1,0 +1,13 @@
+body{
+	background-color: rgb(0, 25, 46);
+	color: antiquewhite;
+	font-family: 'Titillium Web', sans-serif;
+}
+.section-center{
+	display: flex;
+	justify-content: center;
+}
+form input{
+	width:25px;
+	margin-inline: 10px;
+}
