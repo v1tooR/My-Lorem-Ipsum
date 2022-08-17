@@ -60,3 +60,23 @@ article p{
 	text-align: center;
 	font-size: 30%;
 }
+::-webkit-scrollbar {
+	width: 10px;
+	
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: rgb(22, 21, 21);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(6, 47, 59);
+	transition: all .5s ease;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(5, 38, 46);
+  } 
