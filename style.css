@@ -26,6 +26,9 @@ form label{
 form input{
 	width: 25px;
 	margin-inline: 10px;
+	text-align: center;
+	border-radius: 10px;
+	border-style: none;
 }
 button{
 	transition: all .5s ease;
@@ -41,4 +44,19 @@ button{
 button:hover{
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 12px 22px;
 	background-color: rgb(5, 45, 57);
+}
+#id input{
+	border-radius: 25px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: rgb(175, 174, 174);
+	opacity: 1; /* Firefox */
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: rgb(5, 5, 5);
+}
+article p{
+	margin: 100px;
+	text-align: center;
+	font-size: 30%;
 }
